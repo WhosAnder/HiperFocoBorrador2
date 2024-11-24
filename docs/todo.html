@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiperFoco</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scriptTodo.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button class="music-btn">🎵Lofi Music</button>
+            <h1><a href="index.html">HiperFoco</a></h1>
+            <button class="settings-btn">⚙️ Configuración</button>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav-container">
+            <li><a href="pomodoro.html">Pomodoro</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="progress.html">Progreso</a></li>
+        </ul>
+    </nav>
+    <section id="todo" class="section">
+        <h2>To-Do</h2>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Añadir tarea">
+            <button id="add-todo" type="submit">Añadir</button>
+        </form>
+        <ul id="todo-list">
+            <!-- Las tareas se renderizan aquí dinámicamente -->
+        </ul>
+    </section>
+    
+
+</body>
+</html>

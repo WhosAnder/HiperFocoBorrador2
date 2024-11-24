@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiperFoco</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scriptPomodoro.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button class="music-btn">🎵 Lofi Music</button>
+            <h1><a href="index.html">HiperFoco</a></h1>
+            <button class="settings-btn">⚙️ Configuración</button>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav-container">
+            <li><a href="pomodoro.html">Pomodoro</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="progress.html">Progreso</a></li>
+        </ul>
+    </nav>
+    <section id="pomodoro" class="section">
+        <h2>Pomodoro</h2>
+        <div id="timerPomodoro">25:00</div>
+        <button id="startPomodoro">Iniciar</button>
+        <button id="resetPomodoro">Reiniciar</button>
+    </section>
+    <section id="descanso" class="section">
+        <div class="descanso-container">
+            <div class="descanso-item">
+                <h2>Descanso</h2>
+                <div id="timerDescanso">5:00</div>
+                <button id="startDescanso">Iniciar</button>
+                <button id="resetDescanso">Reiniciar</button>
+            </div>
+            <div class="descanso-item">
+                <h2>Descanso Largo</h2>
+                <div id="timerDescansoLargo">15:00</div>
+                <button id="startDescansoLargo">Iniciar</button>
+                <button id="resetDescansoLargo">Reiniciar</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
